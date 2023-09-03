@@ -111,14 +111,6 @@ def main():
 		tabla_tiempo_respuesta.add_row([aplicacion, tiempo_respuesta_str])
 	print(tabla_tiempo_respuesta)
 
-#	print("\nAnálisis de Carga de Red:\n")
-#	tiempo_maximo_analisis = 60
-#	analisis_carga_red = obtener_analisis_carga_red(tiempo_maximo=tiempo_maximo_analisis)
-#
-#	for linea in analisis_carga_red:
-#		print(linea)
-
-
 
 if __name__ == "__main__":
     main()
