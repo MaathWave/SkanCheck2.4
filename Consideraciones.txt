@@ -1,0 +1,62 @@
+# Consideraciones para Ejecutar el Script de Administración de Redes y Sistemas
+
+## Descripción
+Este script permite ejecutar una serie de scripts relacionados con la administración de redes y sistemas. Los scripts abordan diversas tareas de ciberseguridad y análisis.
+
+## Requisitos Previos
+1. **Python:** Asegúrate de tener Python 3.11 instalado en tu sistema.
+2. **Dependencias:** Revisa los archivos `requisitos.txt` en cada carpeta de módulo y asegúrate de instalar las dependencias necesarias usando `pip`. 
+                     (aun asi los scripts intentan hacerlo por ti.)
+
+## Instrucciones de Uso
+1. Descarga o copia este repositorio en tu sistema local.
+2. Navega a la carpeta principal del repositorio en tu terminal.
+3. Ejecuta el archivo 'main_script.py' y con el podras utilizar los scripts y sus funcionalidades.
+
+### Ejecutar un Script Específico
+3. Ejecuta el script principal: `python3 main_script.py`.
+4. Sigue las instrucciones para seleccionar la categoría y el script que deseas ejecutar.
+
+
+## Scripts disponibles
+
+1. **Configuracion y Ajustes**
+    - En el se puede consultar la informacion de configuracion del sistema y red, los ajustes de firewall y politicas de seguridad y la configuracion de enrutamiento y enlace.
+
+2. **Estado del Sistema**
+    - En el se puede consultar la carga del sistema (promedios de carga en diferentes intervalos), uso de memoria (total, disponible, utilizada y porcentaje de uso),
+      informacion del CPU (numero de nucleos, velocidad, modelo, etc.) y tambien la informacion sobre el almacenamiento (espacio total, disponible y utilizado).
+
+3. **Informacion del hardware**
+    - En el se puede consultar el modelo y especificaciones del hardware y tambien los dispositivos conectados (USB, tarjetas de red, etc.).
+
+4. **Monitorizacion de servicios y aplicaciones**
+    - En el se puede consultar el estado de los servicios criticos (HTTP, bases de datos, correos, etc.) y la recopilacion de registros y metricas de aplicaciones.
+
+5. **Red y Conectividad**
+    - En el se puede consultar la informacion de las interfaces de red (IP, mascara de red y MAC), los puertos abiertos en el sistema, informacion de enrutamiento y
+      puerta de enlace predeterminada y, por ultimo, se puede ver el estado de la conexion de red (ping a enrutador, conectividad interna y externa).
+
+6. **Seguimiento de rendimiento**
+    - En el se puede consultar el rendimiento del CPU, la memoria y la velocidad de entrada y salida de datos (E/S), tambien, la latencia y tiempos de respuesta de aplicaciones.
+
+7. **Seguridad y auditoria**
+    - En el se puede consultar los registros de seguridad y actividad del sistema.
+
+8. **Software y paquetes**
+    - En el se puede consultar la lista de paquetes instalados, la informacion sobre actualizaciones y parches y la informacion sobre versiones de software y bibliotecas.
+
+9. **Usuarios y sesiones**
+    - En el se puede consultar los usuarios activos en el sistema, la informacion sobre las sesiones de usuarios y el uso de recursos por usuario.
+
+
+## Consideraciones Adicionales
+- Lee detenidamente las descripciones de los scripts disponibles para entender sus funcionalidades antes de ejecutarlos.
+- Asegúrate de proporcionar permisos necesarios para la ejecución de scripts que requieran acceso elevado.
+- Si encuentras problemas durante la ejecución, verifica los mensajes de error y consulta la documentación del script correspondiente.
+- **Advertencia:** Algunos scripts pueden tener efectos importantes en sistemas y redes. Utiliza esta herramienta con responsabilidad y no en entornos de producción sin autorización.
+- Este script es proporcionado "tal cual", sin garantía de seguridad o funcionalidad. Úsalo bajo tu propio riesgo.
+
+
+## Contacto
+Si tienes preguntas, comentarios, propuestas de mejora o encuentras problemas, puedes contactarme en *matias.alderetee@outlook.es*
