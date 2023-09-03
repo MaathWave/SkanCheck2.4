@@ -25,28 +25,6 @@ def mostrar_banner():
 mostrar_banner()
 
 
-#Crear entorno virtual para la ejecucion del script (asi no generar inconveniente con las bibliotecas o dependencias)
-#********************************************************************************************************************
-#****               Por el momento el entorno virtual estara sin funcionamiento, debido a                        ****
-#****                                                                                                            ****
-#****                varios errores que suceden en su ejecucion. Sera una mejora a futuro                        ****
-#********************************************************************************************************************
-
-
-#def crear_entorno_virtual():
-#    venv_dir = os.path.join(os.getcwd(), "venv")
-#    if not os.path.exists(venv_dir):
-#        venv.create(venv_dir, with_pip=True)
-
-#    activar_script = "Activar" if os.name == "nt" else "source venv/bin/Activar"
-#    activar_cmd = f"{activar_script}"
-#    subprocess.run(activar_cmd, shell=True, executable="/bin/bash", env=os.environ.copy())
-
-#crear_entorno_virtual()
-
-
-
-
 #Instalar las bibliotecas requeridas para la ejecucion de los scripts
 
 def instalar_bibliotecas_requeridas(categoria):
